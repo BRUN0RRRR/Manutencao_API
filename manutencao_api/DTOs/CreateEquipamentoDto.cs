@@ -12,7 +12,7 @@ namespace manutencao_api.Models.DTOs
 
         public string? Status { get; set; }
 
-        [Required(ErrorMessage = "O Setor do equipamento é obrigatório.")]
+        [Required(ErrorMessage = "O Setor do equipamento é obrigatório.dfgdfg")]
         public int SetorId { get; set; }
     }
 }
